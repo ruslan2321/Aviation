@@ -1,5 +1,7 @@
-body{
+
+html body{
     overflow: hidden;
+    cursor: none;
 }
 p{
     
