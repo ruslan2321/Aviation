@@ -1,5 +1,4 @@
 body{
-
     overflow-x:hidden ;
 }
 .img-btn-1{
@@ -100,18 +99,94 @@ body{
     top: 235px;
 
 }
-.down-main{
+.d{
+    display: inline-flex;
+    position: absolute;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    top: 47rem;
+    left: 84rem;
+}
+.main{
     position:absolute;
     top: 48rem;
     height: 0px;
     
 }
-.down-main p{
+.main p{
     position: relative;
-    bottom: 50rem;
+    bottom: 48rem;
     font-weight: 600;
     left: 40rem;
     font-size: 40px;
+}
+.down-main{
+    position: absolute;
+    top:    106rem;
+    left:0px;
+}
+.block-1{
+    position: absolute;
+    top: 3px;
+    width: 30rem;
+    height: 52rem;
+    background-color: #151623;
+}
+.block-1 h1{
+    color: white;
+    position: relative;
+    top: 44px;
+    left: 86px;
+    font-weight: 600;
+    font-size: 4rem;
+
+}
+.block-1 button{
+    position: relative;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 30px;
+    left: 25px;
+    top: 25rem;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+.block-1 p{
+    position: relative;
+    color: white;
+    top: 22rem;
+    left: 2rem;
+    font-weight: 600;
+    font-size: 28px;
+}
+.block-2 img{
+    position: relative;
+    left: 30rem;
+    top: 3px;
+    bottom: 0px;
+}
+.block-3{
+    position: absolute;
+    top: 3px;
+    left: 907px;
+    width: 39rem;
+    height: 52rem;
+    background-color: #BC7155;
+}
+.block-3 a{
+   position: relative;
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background-color: #000000;
+   border-radius: 30px;
+   margin:0px 10px  0  0;
+   top: 49rem;
+   left: 30rem;
 }
 .main-down{
     display: inline-flex;
@@ -167,7 +242,20 @@ body{
     border-bottom: 0px;
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
 }
+button:hover{
+    box-shadow:  inset 4px 5px 4px 1px grey;
+
+}
 /* .down:hover,.btn-down:hover{
     border-color: #000000;
     background-color: white;
 } */
+::-webkit-scrollbar{
+    height: 5px;
+    width: 15px;
+    background-color: #3e71f14c;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: #ffffffad;
+}
