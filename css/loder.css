@@ -1,0 +1,54 @@
+body{
+    overflow: hidden;
+}
+p{
+    
+    position: relative;
+    left: 40rem;
+    top: 10rem; 
+    color: rgb(83, 83, 83);
+    font-weight: 600;
+}
+h1{
+    position: relative;
+    left: 28rem;
+    top: 6rem;
+    font-size: 100px; 
+}
+.Preloader{
+    position: relative;
+    left: 29rem;
+    top: 0.7rem;
+}
+.loder{
+    width: 20px;
+    border-bottom: 2px solid black; 
+    animation-name: load;
+    animation-duration: 4s;
+    transition: 0.5s all;
+    
+}
+.loder img{
+    position: relative;
+    left: 1rem;
+    top: 19px;
+    animation-name: loder-img;
+    animation-duration: 4s;
+    transition:0.5s all ;
+}
+@keyframes loder-img {
+    from{
+        left: 1rem;
+    }
+    to{
+        left: 35rem;
+    }
+}
+@keyframes load {
+    from{        
+        width: 20px;
+    }
+    to{
+        width: 580px;
+    }
+}
