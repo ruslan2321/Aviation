@@ -4,6 +4,7 @@ body{
 }
 a,p,button{
     font-family: 'Roboto' sans-serif;
+    transition: 0.5s all  ease-in-out;
 }
 .fly{
     height: 0px;
@@ -297,6 +298,7 @@ a,p,button{
     color: white;
     font-size: 19px;
     border-radius: 20px;
+    transition: 0.5s all ease-in-out;
 }
 .slide-img{
     position: relative;
@@ -305,13 +307,11 @@ a,p,button{
     height: 29rem;
 }
 .btn-group button:hover{
-    transition: 0.5s all;
     color: #000;
     background-color: #ffffff;
     border:2px solid black;
 }
 .header a:hover{
-    transition: 0.5s all;
     border-bottom: 1.5px solid black;
 }
 .btn-1:hover, .btn-2:hover{
